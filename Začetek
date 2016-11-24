@@ -10,7 +10,7 @@ def CheckIfNumber(number):
         return False
 
 
-print("Hallo world")
+print("Hallo")
 myName = raw_input("What is your name?")
 if any(c.isalpha() for c in myName) == False:
     print("name is not waild. Exitting!")
